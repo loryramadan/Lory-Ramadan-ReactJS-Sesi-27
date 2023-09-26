@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import {useSelector,  useDispatch } from "react-redux";
 import {Link} from 'react-router-dom'
-import { getCartTotal } from "../feature/CartSlice";
+import { getCartTotal } from "../Feature/CartSlice";
 import 'boxicons'
 
 const Navbar = () => {  

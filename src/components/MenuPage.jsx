@@ -1,7 +1,6 @@
 import React from "react";
 import { useDispatch} from "react-redux";
-import { addToCart } from "../feature/CartSlice";
-import { NavLink } from "react-router-dom";
+import { addToCart } from "../Feature/CartSlice";
 import { numberWithComma } from "../utils/NumberWithComma";
 
 const MenuPage = ({filter}) => {

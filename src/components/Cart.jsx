@@ -6,7 +6,7 @@ import {
   removeItem,
   decreaseItemQuantity,
   increaseItemQuantity,
-} from "../feature/CartSlice";
+} from "../Feature/CartSlice";
 import BackToMenuButton from "./button/BackToMenuButton";
 import "boxicons"
 import  {numberWithComma} from "../utils/NumberWithComma";
